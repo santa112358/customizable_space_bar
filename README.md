@@ -19,6 +19,7 @@ This package is expected to be used with `flexibleSpace:` in `SliverAppBar`, whi
             /// This is the part you use this package
             flexibleSpace: CustomizableSpaceBar(
               builder: (context, scrollingRate) {
+                /// Example content
                 return Padding(
                   padding: EdgeInsets.only(
                       bottom: 13, left: 12 + 40 * scrollingRate),
@@ -34,7 +35,7 @@ This package is expected to be used with `flexibleSpace:` in `SliverAppBar`, whi
                 );
               },
             ),
-            ///
+            /// End of the part
 
             expandedHeight: 150,
           ),
