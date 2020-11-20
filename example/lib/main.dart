@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
                   child: Align(
                     alignment: Alignment.bottomLeft,
                     child: Text(
-                      scrollingRate.toString(),
+                      scrollingRate.toStringAsFixed(10),
                       style: TextStyle(fontSize: 32 - 8 * scrollingRate),
                     ),
                   ),
