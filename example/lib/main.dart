@@ -32,6 +32,8 @@ class MyHomePage extends StatelessWidget {
             pinned: true,
             leading: IconButton(icon: Icon(Icons.arrow_back_ios_sharp)),
             backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+
+            /// The part you use this package
             flexibleSpace: CustomizableSpaceBar(
               builder: (context, scrollingRate) {
                 return Padding(
@@ -49,6 +51,8 @@ class MyHomePage extends StatelessWidget {
                 );
               },
             ),
+
+            /// End of the part
             expandedHeight: 150,
           ),
           SliverList(
