@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      debugShowCheckedModeBanner: false,
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -40,13 +41,15 @@ class MyHomePage extends StatelessWidget {
                     alignment: Alignment.bottomLeft,
                     child: Text(
                       scrollingRate.toStringAsFixed(10),
-                      style: TextStyle(fontSize: 32 - 8 * scrollingRate),
+                      style: TextStyle(
+                          fontSize: 42 - 18 * scrollingRate,
+                          fontWeight: FontWeight.bold),
                     ),
                   ),
                 );
               },
             ),
-            expandedHeight: 120,
+            expandedHeight: 150,
           ),
           SliverList(
             delegate: SliverChildBuilderDelegate(
