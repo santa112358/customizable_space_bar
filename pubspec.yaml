@@ -1,8 +1,8 @@
 name: customizable_space_bar
-description: A new Flutter package.
-version: 0.0.1
-author:
-homepage:
+description: AppBar which changes the content with scrolling rate. Enables to implement "Large Title"
+version: 0.1.0
+author: Santa Takahashi
+homepage: https://github.com/santa112358/customizable_space_bar
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

@@ -1,5 +1,9 @@
 # customizable_space_bar
 
+
+[![pub package](https://img.shields.io/pub/v/customizable_space_bar.svg)](https://pub.dev/packages/customizable_space_bar)
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
+
 AppBar which changes the content with scrolling rate. Enables to implement "Large Title"
 
 ![13063567123474](https://user-images.githubusercontent.com/43510799/99781850-b98d5e00-2b5b-11eb-8233-e36e3197d9af.gif)
