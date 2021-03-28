@@ -30,7 +30,10 @@ class MyHomePage extends StatelessWidget {
         slivers: [
           SliverAppBar(
             pinned: true,
-            leading: IconButton(icon: Icon(Icons.arrow_back_ios_sharp)),
+            leading: IconButton(
+              icon: Icon(Icons.arrow_back_ios_sharp),
+              onPressed: () {},
+            ),
             backgroundColor: Theme.of(context).scaffoldBackgroundColor,
 
             /// The part you use this package
